@@ -1,8 +1,10 @@
 module Main exposing (main)
 
 import ElementAt
+import ElementCount
 import Html exposing (Html, div, h4)
 import LastElement
+import ListReverse
 import Penultimate
 
 
@@ -11,6 +13,8 @@ problems =
     [ { identifier = "1", title = "Last element", testFunction = LastElement.test }
     , { identifier = "2", title = "Penultimate", testFunction = Penultimate.test }
     , { identifier = "3", title = "Element at", testFunction = ElementAt.test }
+    , { identifier = "4", title = "Element count", testFunction = ElementCount.test }
+    , { identifier = "5", title = "List reverse", testFunction = ListReverse.test }
     ]
 
 
